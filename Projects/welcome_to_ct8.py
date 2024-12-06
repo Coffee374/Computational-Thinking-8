@@ -6,12 +6,11 @@ stage = StageClass()
 ###############################################
 
 
-stage.set_background("moon")
+stage.set_background("")
 mySprite = codesters.Sprite("rice")
-mySprite.say("I like the moon")
+mySprite.say("This text is red",-1,"#990F02")
 
 
 print("\n\nWhen you have found the CARDINAL, click here, then use CTRL C to end the program\n\n")
 print("this is the new last instruction")
 print("\n---hey hey---\n")
-mySprite2 = codesters.Sprite("rice",175,0)
