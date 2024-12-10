@@ -5,7 +5,6 @@ from codesters import StageClass
 stage = StageClass()
 ###############################################
 
-stage.set_background('Black')
 
 
 q1 = codesters.Square (100, 100, 200, 'Pink')
@@ -24,5 +23,7 @@ s4 = codesters.Sprite("sans", -100, 100)
 s4.set_size(0.3)
 
 
-message1 = codesters.Text("this is my name", 0, 220, "red")
-message2 = codesters.Text("this is my message", 0, -220, "black")
+message1 = codesters.Text("Calvin Cristopher Krebs Caffee", 0, 220, "LightPink")
+message2 = codesters.Text("Soren is my bestie", 0, -220, "white")
+
+stage.set_background("ssbb (1)")
