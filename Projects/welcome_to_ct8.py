@@ -5,7 +5,7 @@ from codesters import StageClass
 stage = StageClass()
 ###############################################
 
-
+ 
 stage.set_background("")
 mySprite = codesters.Sprite("rice")
 mySprite.say("This text is red",-1,"#990F02")
