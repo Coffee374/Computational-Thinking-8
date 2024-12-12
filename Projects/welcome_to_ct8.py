@@ -7,8 +7,8 @@ stage = StageClass()
 
  
 stage.set_background("")
-mySprite = codesters.Sprite("rice")
-mySprite.say("This text is red",-1,"#990F02")
+mySprite = codesters.Sprite("TetoPlush")
+mySprite.say("Kasane Teto",-1,"#990F02")
 
 
 print("\n\nWhen you have found the CARDINAL, click here, then use CTRL C to end the program\n\n")
