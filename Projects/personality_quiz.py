@@ -34,7 +34,31 @@ if answer == "A":
 elif answer == "B":
     correct_answers += 1
 
-answer = input("\nWhat year did Luigi make his first aperance A) 1983, or B) 1994?\n")
+answer = input("\nWhat year did Luigi make his first appearance A) 1983, or B) 1994?\n")
+if answer == "A":
+    correct_answers += 1
+elif answer == "B":
+    wrong_answers += 1
+
+answer = input("\nWhat did Nintendo make before video games? A) instant rice and love hotels, or B) computers and fireworks\n")
+if answer == "A":
+    correct_answers += 1
+elif answer == "B":
+    wrong_answers += 1
+
+answer = input("\nWhat is Nintendo's worst selling console? A) the Virtual Boy, or B) the Wii U\n")
+if answer == "A":
+    correct_answers += 1
+elif answer == "B":
+    wrong_answers += 1
+
+answer = input("\nWhat console did the Nintendo Power glove work on? A) the Nintendo 64, or B) the Nintendo Entertainment System\n")
+if answer == "A":
+    wrong_answers += 1
+elif answer == "B":
+    correct_answers += 1
+
+answer = input("\nWhat year did Mario make his first appearance A) 1981, or B) 1983?\n")
 if answer == "A":
     correct_answers += 1
 elif answer == "B":
