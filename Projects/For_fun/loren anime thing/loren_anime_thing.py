@@ -1,6 +1,12 @@
+
+#cool thing loren showed me
+#text apearing one by one was by chatgpt
+
+
+
 import time
 
-def type_writer(text, delay=0.05):
+def type_writer(text, delay=0.03):
     for char in text:
         print(char, end='', flush=True)
         time.sleep(delay)
