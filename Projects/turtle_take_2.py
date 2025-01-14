@@ -8,4 +8,15 @@ turtle.Screen().bgcolor("black")
 t = turtle.Turtle()
 t.speed(100)
 t.color("pink")
-t.left(20)
+
+for i in range(30) :
+    t.forward(100)
+    t.right(90)
+    t.forward(1)
+    t.right(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(1)
+    t.left(90)
+
+    turtle.exitonclick()
