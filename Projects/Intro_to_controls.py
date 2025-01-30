@@ -29,8 +29,6 @@ def hide(sprite):
 #section 4: bind controls to specific keys
 s1.event_key("w", move_up)
 s1.event_key("s", move_down)
-s1.event_key("a", move_left)
-s1.event_key("d", move_right)
 
 
 # Section 5: reminder message
