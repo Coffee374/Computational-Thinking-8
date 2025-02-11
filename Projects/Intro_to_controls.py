@@ -9,26 +9,39 @@ s1.set_size(0.5)
 
 # Section 2: define controls
 def move_up(sprite):
-    sprite.move_up(1)
+    sprite.move_up(3)
 
 def move_down(sprite):
-    sprite.move_down(1)
+    sprite.move_down(3)
 
 def move_left(sprite):
-    sprite.move_left(1)
+    sprite.move_left(3)
 
 def move_right(sprite):
-    sprite.move_right(1)
+    sprite.move_right(3)
+
+def turn_left(sprite):
+    heading = sprite
 
 
 # Section 3: define hide and show
 def hide(sprite):
     sprite.hide()
+def show(sprite):
+    sprite.show()
 
 
 #section 4: bind controls to specific keys
 s1.event_key("w", move_up)
 s1.event_key("s", move_down)
+s1.event_key("a", move_left)
+s1.event_key("d", move_right)
+s1.event_key("up", move_up)
+s1.event_key("down", move_down)
+s1.event_key("left", move_left)
+s1.event_key("right", move_right)
+s1.event_key("h", hide)
+s1.event_key("g", show)
 
 
 # Section 5: reminder message
